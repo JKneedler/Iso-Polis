@@ -6,6 +6,8 @@ using TMPro;
 
 public class MapGen : MonoBehaviour
 {
+    [HideInInspector]
+    public Services services;
     public GameObject[] tilePrefabs;
     Tile[] tiles;
     public int islandDegeneration;
